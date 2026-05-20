@@ -66,8 +66,8 @@ export const profile = {
   shortName: "Zhifan Zhou",
   school: "Carnegie Mellon University",
   schoolAddress: "5000 Forbes Ave, Pittsburgh, PA 15213",
-  degree: "B.S. in Statistics and Machine Learning",
-  major: "Statistics and Machine Learning",
+  degree: "B.S. in Information Systems",
+  major: "Information Systems",
   subtitle: "Undergraduate Student at Carnegie Mellon University",
   email,
   github,
@@ -154,17 +154,17 @@ export const siteCopy = {
     profile: {
       role: "Undergraduate Student",
       school: "Carnegie Mellon University",
-      major: "B.S. in Statistics and Machine Learning",
+      major: "B.S. in Information Systems",
       line: "AI Agents, AI for ML, Multimodal LLM Systems",
     },
     home: {
       eyebrow: "Carnegie Mellon University",
       title: "Zhifan Zhou",
       positioning:
-        "Undergraduate student in Statistics and Machine Learning, interested in AI agents.",
+        "Undergraduate student in Information Systems, interested in AI agents.",
       aboutTitle: "About",
       about: [
-        "I'm Zhifan Zhou (go by Sky), an undergraduate at Carnegie Mellon University studying Statistics and Machine Learning. I'm interested in AI agents and agentic systems — how LLMs can plan, use tools, and improve through iteration. My research sits at the intersection of language models and automated machine learning, and I care about building AI systems that are genuinely useful.",
+        "I'm Zhifan Zhou (go by Sky), an undergraduate at Carnegie Mellon University studying Information Systems. I'm interested in AI agents and agentic systems — how LLMs can plan, use tools, and improve through iteration. My research sits at the intersection of language models and automated machine learning, and I care about building AI systems that are genuinely useful.",
         "Outside of research, I play basketball, badminton, and Go.",
       ],
       researchTitle: "Research Interests",
@@ -185,7 +185,7 @@ export const siteCopy = {
         },
         {
           date: "2025",
-          text: "Started undergraduate studies in Statistics and Machine Learning at Carnegie Mellon University.",
+          text: "Started undergraduate studies in Information Systems at Carnegie Mellon University.",
         },
       ],
     },
@@ -209,7 +209,7 @@ export const siteCopy = {
       title: "Experiences",
       educationTitle: "Education",
       education: {
-        degree: "B.S. in Statistics and Machine Learning",
+        degree: "B.S. in Information Systems",
         organization: "Carnegie Mellon University",
         period: "2025–2029",
         description: "",
@@ -300,17 +300,17 @@ export const siteCopy = {
     profile: {
       role: "本科生",
       school: "卡耐基梅隆大学",
-      major: "统计与机器学习",
+      major: "信息系统",
       line: "AI Agents, AI for ML, Multimodal LLM Systems",
     },
     home: {
       eyebrow: "卡耐基梅隆大学",
       title: "周知凡",
       positioning:
-        "统计与机器学习方向本科生，关注 AI agents。",
+        "信息系统方向本科生，关注 AI agents。",
       aboutTitle: "关于我",
       about: [
-        "我是周知凡（别名叫 Sky），目前在卡耐基梅隆大学读本科，学习统计与机器学习。我对 AI agents 和 agentic systems 很感兴趣，尤其关注 LLM 如何进行规划、使用工具，并在迭代中变得更好。我的研究围绕语言模型与自动化机器学习的交叉展开，始终思考什么样的 AI 系统才是真的有用。",
+        "我是周知凡（别名叫 Sky），目前在卡耐基梅隆大学读本科，学习信息系统。我对 AI agents 和 agentic systems 很感兴趣，尤其关注 LLM 如何进行规划、使用工具，并在迭代中变得更好。我的研究围绕语言模型与自动化机器学习的交叉展开，始终思考什么样的 AI 系统才是真的有用。",
         "研究之外，我喜欢篮球、羽毛球，和围棋。",
       ],
       researchTitle: "研究兴趣",
@@ -331,7 +331,7 @@ export const siteCopy = {
         },
         {
           date: "2025",
-          text: "入学卡耐基梅隆大学，攻读统计与机器学习本科学位。",
+          text: "入学卡耐基梅隆大学，攻读信息系统本科学位。",
         },
       ],
     },
@@ -355,7 +355,7 @@ export const siteCopy = {
       title: "经历",
       educationTitle: "教育背景",
       education: {
-        degree: "统计与机器学习本科",
+        degree: "信息系统本科",
         organization: "卡耐基梅隆大学",
         period: "2025–2029",
         description: "",

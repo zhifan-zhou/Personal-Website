@@ -1,6 +1,6 @@
 # Zhifan Zhou Personal Website
 
-A static personal academic homepage and interactive resume for Zhifan Zhou, an undergraduate student at Carnegie Mellon University studying Statistics and Machine Learning.
+A static personal academic homepage and interactive resume for Zhifan Zhou, an undergraduate student at Carnegie Mellon University studying Information Systems.
 
 The site uses routed pages for Home, Publications, Experiences, and Contact. It includes a cinematic profile hero, bilingual EN/CN content, light/dark theme switching, an interactive DataMaster workflow on the Experiences page, a command palette, and a static contact form that opens the visitor's email client.
 

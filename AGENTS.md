@@ -12,7 +12,7 @@ The website should function as both:
 
 - Name: Zhifan (Sky) Zhou
 - School: Carnegie Mellon University
-- Degree: Undergraduate student, B.S. in Statistics and Machine Learning
+- Degree: Undergraduate student, B.S. in Information Systems
 - Interests: AI agents, LLM systems, data science, NLP, product analytics, human-AI interaction, and useful AI-powered products
 
 ## Design Direction

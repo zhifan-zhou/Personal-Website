@@ -24,13 +24,13 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   title: `${profile.name} | Academic Homepage`,
   description:
-    "Personal academic homepage and interactive resume for Zhifan Zhou, an undergraduate student at Carnegie Mellon University studying Statistics and Machine Learning.",
+    "Personal academic homepage and interactive resume for Zhifan Zhou, an undergraduate student at Carnegie Mellon University studying Information Systems.",
   authors: [{ name: profile.name }],
   keywords: [
     "Zhifan Zhou",
     "Sky Zhou",
     "Carnegie Mellon University",
-    "Statistics and Machine Learning",
+    "Information Systems",
     "AI agents",
     "LLM systems",
     "data science",
