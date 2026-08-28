@@ -18,7 +18,7 @@ export function ExperienceTimeline({
       <div className="timeline-rail" aria-label="Experience timeline">
         {experiences.map((experience, index) => (
           <button
-            key={experience.title}
+            key={`${experience.title}-${experience.organization}`}
             type="button"
             className={cn(
               "timeline-node",
@@ -47,9 +47,11 @@ export function ExperienceTimeline({
           <h2 className="mt-2 text-2xl font-semibold" style={{ color: 'var(--text)' }}>
             {activeExperience.title}
           </h2>
-          <p className="mt-3 leading-7" style={{ color: 'var(--muted)' }}>
-            {activeExperience.summary}
-          </p>
+          {activeExperience.summary ? (
+            <p className="mt-3 leading-7" style={{ color: 'var(--muted)' }}>
+              {activeExperience.summary}
+            </p>
+          ) : null}
           <ul className="mt-5 space-y-3 text-sm leading-7" style={{ color: 'var(--muted)' }}>
             {activeExperience.details.map((detail) => (
               <li key={detail} className="flex gap-3">

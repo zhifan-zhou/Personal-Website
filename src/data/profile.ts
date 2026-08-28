@@ -193,14 +193,12 @@ export const siteCopy = {
       title: "Publications",
       items: [
         {
-          title:
-            "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+          title: "DataMaster: Data-Centric Autonomous AI Research",
           authors:
             "Yaxin Du, Xiyuan Yang, <strong>Zhifan Zhou</strong>, Wanxu Liu, Zixing Lei, Zimeng Chen, Fenyi Liu, Haotian Wu, Yuzhu Cai, Zexi Liu, Xinyu Zhu, Wenhao Wang, Linfeng Zhang, Chen Qian, Siheng Chen",
           venue: "NeurIPS 2026",
           status: "Under Review",
-          description:
-            "DataMaster studies agentic data science workflows for machine learning, with an emphasis on tool use, experiment planning, memory, execution, evaluation, and iterative model improvement.",
+          description: "",
           links: datamasterLinks,
         },
       ] satisfies Publication[],
@@ -237,12 +235,23 @@ export const siteCopy = {
         {
           title: "Research Intern",
           organization:
-            "School of Artificial Intelligence, Shanghai Jiao Tong University",
-          period: "2026-Present",
-          summary:
-            "Research role focused on AI agents and machine learning-related work.",
+            "NLP Lab, Eastern Institute of Technology · Ningbo, China",
+          period: "May 2026–Present",
+          summary: "",
           details: [
-            "Conducting research on agentic AI systems at the intersection of LLMs and automated machine learning.",
+            "Develop a streaming omni model for real-time multimodal interaction using a full-duplex training paradigm, under the supervision of Prof. Xiaoyu Shen.",
+            "Develop post-training data pipelines by curating omni-modal conversational datasets, aligning cross-modal signals, and defining fine-grained timestamp annotations for precise temporal supervision.",
+          ],
+        },
+        {
+          title: "Research Intern",
+          organization:
+            "MAGIC Lab, Shanghai Jiao Tong University · Shanghai, China",
+          period: "Feb. 2026–Present",
+          summary: "",
+          details: [
+            "Conduct research on self-evolving agents and AI-for-science systems under Prof. Siheng Chen.",
+            "Contribute to projects spanning multi-agent governance, autonomous AI systems, and scientific discovery workflows.",
           ],
         },
       ] satisfies Experience[],
@@ -339,14 +348,12 @@ export const siteCopy = {
       title: "论文",
       items: [
         {
-          title:
-            "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+          title: "DataMaster: Data-Centric Autonomous AI Research",
           authors:
             "Yaxin Du, Xiyuan Yang, <strong>Zhifan Zhou</strong>, Wanxu Liu, Zixing Lei, Zimeng Chen, Fenyi Liu, Haotian Wu, Yuzhu Cai, Zexi Liu, Xinyu Zhu, Wenhao Wang, Linfeng Zhang, Chen Qian, Siheng Chen",
           venue: "NeurIPS 2026",
           status: "Under Review",
-          description:
-            "DataMaster 探索面向机器学习的数据科学智能体工作流，重点关注工具使用、实验规划、记忆、执行、评估与迭代改进。",
+          description: "",
           links: datamasterLinks,
         },
       ] satisfies Publication[],
@@ -383,11 +390,23 @@ export const siteCopy = {
         {
           title: "研究实习生",
           organization:
-            "School of Artificial Intelligence, Shanghai Jiao Tong University",
-          period: "2026-Present",
-          summary: "围绕 AI agents 与机器学习相关方向的研究经历。",
+            "宁波东方理工大学 NLP Lab · 中国宁波",
+          period: "2026年5月–至今",
+          summary: "",
           details: [
-            "开展 agentic AI systems 研究，关注 LLM 与自动化机器学习的交叉方向。",
+            "在沈小宇教授指导下，采用全双工训练范式开发面向实时多模态交互的流式全模态模型。",
+            "构建后训练数据流水线，包括整理全模态对话数据集、对齐跨模态信号，以及定义细粒度时间戳标注以实现精确的时序监督。",
+          ],
+        },
+        {
+          title: "研究实习生",
+          organization:
+            "上海交通大学 MAGIC Lab · 中国上海",
+          period: "2026年2月–至今",
+          summary: "",
+          details: [
+            "在陈思衡教授指导下，开展自进化智能体与 AI for Science 系统研究。",
+            "参与多智能体治理、自主 AI 系统和科学发现工作流等项目。",
           ],
         },
       ] satisfies Experience[],

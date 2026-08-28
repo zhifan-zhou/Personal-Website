@@ -24,9 +24,11 @@ export function PublicationList({
             <p className="mt-2 text-sm font-medium" style={{ color: 'var(--accent-strong)' }}>
               {publication.venue}
             </p>
-            <p className="mt-4 max-w-3xl text-sm leading-7" style={{ color: 'var(--muted)' }}>
-              {publication.description}
-            </p>
+            {publication.description ? (
+              <p className="mt-4 max-w-3xl text-sm leading-7" style={{ color: 'var(--muted)' }}>
+                {publication.description}
+              </p>
+            ) : null}
             <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
               {publication.links.map((link) => (
                 <ExternalLink key={link.label} link={link} />
